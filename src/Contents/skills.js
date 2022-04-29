@@ -1,0 +1,18 @@
+export const skills = [
+  { name: "Python" },
+  { name: "Flask" },
+  { name: "ReactJS" },
+  { name: "React Native" },
+  { name: "Redux" },
+  { name: "Java" },
+  { name: "C" },
+  { name: "AWS" },
+  { name: "Docker" },
+  { name: "Docker Compose" },
+  { name: "SQL" },
+  { name: "SQLlite" },
+  { name: "Postman" },
+  { name: "Git" },
+  { name: "HTML" },
+  { name: "JavaScript" },
+];

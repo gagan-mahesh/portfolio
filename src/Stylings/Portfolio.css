@@ -1,0 +1,157 @@
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+@keyframes cardAnimation {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    40% {
+        opacity: 0.4;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.projects-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(68, 76, 247);
+    background-image: url('./background.jpeg'); */
+    background-position: fixed;
+    animation-name: cardAnimation;
+    animation-duration: 2s;
+}
+
+.page-header {
+    text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  display: inline-block;
+      font-size: 5em;
+    text-align: center;
+}
+
+.primary-button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-container {
+    margin: 0.5em;
+}
+
+.main-buttons {
+    /* background-color: rgb(170, 102, 204) !important; */
+    color: #fff;
+    /* background: linear-gradient(180deg, rgba(52, 183, 89, 0.15) 0%, rgba(46, 164, 79, 0) 100%),#2ea44f !important; */
+    background-color: rgb(68, 76, 247, 0.2);
+    padding: 1.5rem;
+    width: 10em;
+    border-radius: 1em;
+    font-family: sans-serif;
+    font-weight: 800;
+    transition: all 1s linear;
+}
+
+.main-buttons:hover {
+    font-size: large;
+    color: white;
+    background-color: rgb(170, 102, 204, 0.5) !important;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+    background-color: rgb(68, 76, 247, 0.5);
+    box-shadow: 0 4px 15px 10px rgba(116, 79, 168, 0.75);
+    border-radius: 2em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    width: 70%;
+    min-height: 700px;
+} 
+
+.project-card {
+    padding: 1.5em .5em .5em;
+    border-radius: 2em !important;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    background-color: white;
+    width: 70%;
+    border: 1px solid white;
+    margin: 5em auto;
+    opacity: 1;
+    min-height: 500px;
+    animation-name: cardAnimation;
+    animation-duration: 1s;
+    transition: all 1s linear;
+}
+
+.project-card:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.card-company {
+    font-size: 2em;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 2em;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.card-logo-button {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	padding: 5px 16px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+    font-family: sans-serif;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	user-select: none;
+	border: 1px solid rgb(229, 232, 238);
+	border-radius: 2rem;
+	-webkit-appearance: none;
+	appearance: none;
+    background-color: rgb(243, 244, 246);
+}
+
+.card-logo-button:hover {
+    background-color: rgb(202, 205, 211);
+    border: 1px solid rgb(202, 205, 211);
+}
