@@ -1,0 +1,64 @@
+.resume-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-download-button {
+    display: flex;
+    width: fit-content;
+    padding-right: 1rem;
+    padding-left: 1.25rem;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 600;
+    line-height: 1.2;
+    height: 2.5rem;
+    color: white;
+    background-image: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2,
+    #6b8dd6,
+    #8e37d7
+  );
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  border-radius: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.resume-download-button:hover {
+    transition: all .4s ease-in-out;
+    color: black;
+}
+
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+    background-color: rgb(68, 76, 247, 0.5);
+    box-shadow: 0 4px 15px 10px rgba(116, 79, 168, 0.75);
+    border-radius: 2em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    width: 70%;
+    min-height: 700px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.resume-pdf-frame {
+    min-height: 700px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+    animation-name: cardAnimation;
+    animation-duration: 1s;
+}

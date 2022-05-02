@@ -7,6 +7,7 @@ import "./Stylings/Navbar.css";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { Button } from "react-bootstrap";
 import { useState } from "react";
+import Resume from "./Components/Resume";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -18,7 +19,9 @@ function App() {
     <BrowserRouter>
       <div className="app">
         <div className="navigation">
-          <h2 className="navigation-header">Gagan Mahesh</h2>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <h2 className="navigation-header">Gagan Mahesh</h2>
+          </Link>
           <div className="navigation-item-container">
             <Button variant="primary" onClick={handleShow}>
               Home
@@ -67,6 +70,7 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/skills" element={<Skills />} />
           <Route exact path="/achievements" element={<Achievements />} />
+          <Route exact path="/resume" element={<Resume />} />
         </Routes>
       </div>
     </BrowserRouter>
