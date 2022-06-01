@@ -35,12 +35,12 @@ function App() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <div className="navbar-body">
-                  <Link to="/" className="navbar-item-link">
+                  <Link to="/projects" className="navbar-item-link">
                     <div className="navbar-item">
                       <span className="navbar-item-text">Projects</span>
                     </div>
                   </Link>
-                  <Link to="/about" className="navbar-item-link">
+                  <Link to="/" className="navbar-item-link">
                     <div className="navbar-item">
                       <span className="navbar-item-text">About</span>
                     </div>
@@ -66,8 +66,8 @@ function App() {
           </div>
         </div>
         <Routes>
-          <Route exact path="/" element={<Portfolio />} />
-          <Route exact path="/about" element={<About />} />
+          <Route exact path="/projects" element={<Portfolio />} />
+          <Route exact path="/" element={<About />} />
           <Route exact path="/skills" element={<Skills />} />
           <Route exact path="/achievements" element={<Achievements />} />
           <Route exact path="/resume" element={<Resume />} />

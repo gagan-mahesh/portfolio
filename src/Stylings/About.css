@@ -1,6 +1,6 @@
 .about-page {
     min-height: 100vh;
-    background-image: linear-gradient(white, #e9e9e9);
+    /* background-image: linear-gradient(white, #e9e9e9); */
 }
 
 
@@ -25,6 +25,20 @@
     align-items: center;
 }
 
+.about-cards-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(68, 76, 247, 0.5);
+    box-shadow: 0 4px 15px 10px rgba(116, 79, 168, 0.75);
+    border-radius: 2em;
+    /* margin-top: 50px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    /* width: 70%; */
+}
+
 .about-workexp-container {
     display: flex;
     flex-direction: column;
@@ -41,6 +55,8 @@
     border-radius: 10px;
     width: 70%;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @keyframes textAnimation {
@@ -59,7 +75,8 @@
 
 .about-description {
     font-family: sans-serif;
-    color: rgb(50, 50, 46);
+    /* color: rgb(50, 50, 46); */
+    color: white;
     font-size: 30px;
     font-weight: 300;
     letter-spacing: -1px;
@@ -69,9 +86,9 @@
     width: 70%;
 }
 
-.about-description:hover {
-    font-size: 2rem;
-}
+/* .about-description:hover {
+    font-weight: 500;
+} */
 
 .about-body-header {
     width: 100%;
@@ -92,9 +109,10 @@
 
 .about-previous-exp-button {
     display: flex;
-    width: 20%;
+    width: fit-content;
     height: 50px;
     margin-top: 2em;
+    margin-bottom: 1em;
     border-radius: 10px;
     border: 0.5px none #dddcda;
     background-color: #dddcda;
@@ -128,7 +146,7 @@
     background-color: #e9e9e9;
     margin-top: 2em;
     border-radius: 10px;
-    margin-bottom: -1em;
+    margin-bottom: 1em;
     padding-left: 0.4em;
     padding-right: 0.4em;
 }
@@ -171,6 +189,6 @@
     line-height: 2em;
 }
 
-.about-workexp-description:hover {
+/* .about-workexp-description:hover {
     font-size: large;
-}
+} */

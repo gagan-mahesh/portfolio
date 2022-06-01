@@ -15,4 +15,6 @@ export const skills = [
   { name: "Git" },
   { name: "HTML" },
   { name: "JavaScript" },
+  { name: "Jest" },
+  { name: "Enzyme" },
 ];
