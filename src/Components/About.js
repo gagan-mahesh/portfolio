@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import "../Stylings/About.css";
 import photo2 from "../Stylings/photo2.jpg";
 import { workExperience } from "../Contents/workExperience";
+import DetectRTC from "detectrtc";
 
 const About = () => {
-  const [showPreviousExpFlag, setPreviousExpFlag] = useState(false);
+  const [showPreviousExpFlag, setPreviousExpFlag] = useState(true);
 
   return (
     <div className="about-page">
@@ -18,18 +19,20 @@ const About = () => {
               {workExperience.aboutDescription}
             </div>
             <span className="about-body-logo">
-              <img src={photo2} alt="" />
+              <img className="about-body-logo-content" src={photo2} alt="" />
             </span>
           </div>
-          <button
-            className="about-previous-exp-button"
-            onClick={() => {
-              setPreviousExpFlag(!showPreviousExpFlag);
-            }}
-          >
-            Show/Hide Previous experiences
-          </button>
-          {showPreviousExpFlag && (
+          {!DetectRTC.isMobileDevice && (
+            <button
+              className="about-previous-exp-button"
+              onClick={() => {
+                setPreviousExpFlag(!showPreviousExpFlag);
+              }}
+            >
+              Show/Hide Previous experiences
+            </button>
+          )}
+          {showPreviousExpFlag && !DetectRTC.isMobileDevice && (
             <div className="about-cards-container">
               {workExperience.experience.map((item, index) => (
                 <div>
@@ -47,6 +50,22 @@ const About = () => {
                       {item.description}
                     </p>
                   </div>
+                </div>
+              ))}
+            </div>
+          )}
+          {DetectRTC.isMobileDevice && (
+            <div>
+              {workExperience.experience.map((item, index) => (
+                <div className="about-workexp-mobile-container">
+                  <span style={{ fontWeight: 600 }}>{item.companyName}</span>
+                  <span className={item.logo} />
+                  <p className="about-workexp-date">
+                    {item.startDate} : {item.endDate}{" "}
+                  </p>
+                  <p className="about-workexp-description">
+                    {item.description}
+                  </p>
                 </div>
               ))}
             </div>

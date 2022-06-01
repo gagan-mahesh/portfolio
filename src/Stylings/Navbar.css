@@ -32,7 +32,8 @@
 .navigation-item-container {
     /* margin-left: auto;
     margin-right: 2%; */
-    position: fixed;
+    /* position: fixed; */
+    position: absolute;
     right: 2%;
 }
 

@@ -19,6 +19,7 @@
     align-items: center;
 }
 
+
 .about-description-container {
     display: flex;
     margin-top: 1rem;
@@ -187,6 +188,54 @@
     font-family: sans-serif;
     font-weight: 400;
     line-height: 2em;
+}
+
+.about-workexp-mobile-container {
+    display: block;
+    width:fit-content;
+    background-color: #e9e9e9;
+    margin-top: 2em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    padding: 1em;
+    /* padding-left: 0.4em;
+    padding-right: 0.4em; */
+}
+
+@media (hover:none) {
+
+    .about-description {
+        font-size: 22px;
+    }
+
+    .about-body-logo {
+        width: fit-content;
+        height: fit-content;
+        justify-content: flex-end;
+    }
+
+    .about-body-container {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .about-body-logo-content {
+        width: 80%;
+        height: 50%;
+        margin-right: 0.3em;
+    }
+
+    .about-workexp-description {
+        line-height: 1.5em;
+    }
+
+    .about-workexp-date {
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
+    }
 }
 
 /* .about-workexp-description:hover {
