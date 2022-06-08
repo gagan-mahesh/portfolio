@@ -73,7 +73,7 @@ export const portfolio_college = [
     project: {
       title: (
         <React.Fragment>
-          <b>Movie recommendation application [5th sem project]</b>
+          <b>Movie recommendation application</b>
         </React.Fragment>
       ),
       desc: [
@@ -123,3 +123,5 @@ export const portfolio_college = [
     },
   },
 ];
+
+export const portfolio_personal = [];

@@ -206,8 +206,13 @@
 
 @media (hover:none) {
 
+    .about-body-header-text {
+        padding-left: 0.2em;
+    }
+
     .about-description {
         font-size: 22px;
+        padding-left: 0.4em;
     }
 
     .about-body-logo {
