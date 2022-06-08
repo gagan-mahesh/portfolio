@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.97946f11.css",
-    "main.js": "/portfolio/static/js/main.54a1b404.js",
+    "main.js": "/portfolio/static/js/main.b791b4b6.js",
     "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/aiiot.pdf": "/portfolio/static/media/aiiot.0557c80878a46c67bdad.pdf",
     "static/media/resume.pdf": "/portfolio/static/media/resume.ad406ccd2af9a7af077c.pdf",
@@ -9,11 +9,11 @@
     "static/media/cisco.svg": "/portfolio/static/media/cisco.3778ae2b2f80a13cc597.svg",
     "index.html": "/portfolio/index.html",
     "main.97946f11.css.map": "/portfolio/static/css/main.97946f11.css.map",
-    "main.54a1b404.js.map": "/portfolio/static/js/main.54a1b404.js.map",
+    "main.b791b4b6.js.map": "/portfolio/static/js/main.b791b4b6.js.map",
     "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97946f11.css",
-    "static/js/main.54a1b404.js"
+    "static/js/main.b791b4b6.js"
   ]
 }
