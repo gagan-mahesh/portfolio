@@ -16,7 +16,7 @@ function App() {
   const handleShow = () => setShow(true);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="app">
         <div className="navigation">
           <Link to="/" style={{ textDecoration: "none" }}>
