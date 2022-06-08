@@ -34,7 +34,7 @@ function App() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <div className="navbar-body">
+                <div className="navbar-body" onClick={handleClose}>
                   <Link to="/projects" className="navbar-item-link">
                     <div className="navbar-item">
                       <span className="navbar-item-text">Projects</span>
