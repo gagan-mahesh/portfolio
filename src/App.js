@@ -8,6 +8,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import { Button } from "react-bootstrap";
 import { useState } from "react";
 import Resume from "./Components/Resume";
+import Home from "./Components/Home";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -35,12 +36,17 @@ function App() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <div className="navbar-body" onClick={handleClose}>
+                  <Link to="/" className="navbar-item-link">
+                    <div className="navbar-item">
+                      <span className="navbar-item-text">Home</span>
+                    </div>
+                  </Link>
                   <Link to="/projects" className="navbar-item-link">
                     <div className="navbar-item">
                       <span className="navbar-item-text">Projects</span>
                     </div>
                   </Link>
-                  <Link to="/" className="navbar-item-link">
+                  <Link to="/about" className="navbar-item-link">
                     <div className="navbar-item">
                       <span className="navbar-item-text">About</span>
                     </div>
@@ -67,10 +73,11 @@ function App() {
         </div>
         <Routes>
           <Route exact path="/projects" element={<Portfolio />} />
-          <Route exact path="/" element={<About />} />
+          <Route exact path="/about" element={<About />} />
           <Route exact path="/skills" element={<Skills />} />
           <Route exact path="/achievements" element={<Achievements />} />
           <Route exact path="/resume" element={<Resume />} />
+          <Route exact path="/" element={<Home />} />
         </Routes>
       </div>
     </BrowserRouter>
