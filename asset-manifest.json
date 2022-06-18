@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.adfc8176.css",
-    "main.js": "/portfolio/static/js/main.d42640a6.js",
+    "main.js": "/portfolio/static/js/main.65677133.js",
     "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/aiiot.pdf": "/portfolio/static/media/aiiot.0557c80878a46c67bdad.pdf",
+    "static/media/linux_cmd_cert.pdf": "/portfolio/static/media/linux_cmd_cert.9a03aa1faa226529068b.pdf",
     "static/media/resume.pdf": "/portfolio/static/media/resume.ad406ccd2af9a7af077c.pdf",
     "static/media/background.jpeg": "/portfolio/static/media/background.afd6cd9b79e15b5bf98f.jpeg",
     "static/media/cisco.svg": "/portfolio/static/media/cisco.3778ae2b2f80a13cc597.svg",
     "index.html": "/portfolio/index.html",
     "main.adfc8176.css.map": "/portfolio/static/css/main.adfc8176.css.map",
-    "main.d42640a6.js.map": "/portfolio/static/js/main.d42640a6.js.map",
+    "main.65677133.js.map": "/portfolio/static/js/main.65677133.js.map",
     "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.adfc8176.css",
-    "static/js/main.d42640a6.js"
+    "static/js/main.65677133.js"
   ]
 }
