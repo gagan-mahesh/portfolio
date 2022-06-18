@@ -16,7 +16,7 @@ export const portfolio_internship = [
         {
           item: (
             <React.Fragment>
-              Features were mainly associated with media handling for the app.{" "}
+              Features were mainly associated with media-handling for the app.{" "}
               <i>Some of them included:</i>
               <ul>
                 <li>Creating the native Gallery component</li>
@@ -73,12 +73,12 @@ export const portfolio_college = [
     project: {
       title: (
         <React.Fragment>
-          <b>Movie recommendation application</b>
+          <b>Business Analytics using Summarisation and Emotion detection</b>
         </React.Fragment>
       ),
       desc: [
         {
-          item: "Languages and Technologies used: Python, Flask, TensorFlow, HTML, CSS, Redis queue, Docker, Docker-compose, Tweepy",
+          item: "Languages and Technologies used: Python, Flask, TensorFlow, Pandas, HTML, CSS, Redis queue, Docker, Docker-compose, Twitter API, AWS elastic beanstalk",
         },
         {
           item: (
@@ -112,6 +112,49 @@ export const portfolio_college = [
         <React.Fragment>
           <a
             href="https://github.com/gagan-mahesh/capstonephase2"
+            class="btn card-logo-button"
+          >
+            <span>
+              View in github <img src={github} alt="Github Image" />
+            </span>
+          </a>
+        </React.Fragment>
+      ),
+    },
+  },
+  {
+    category: COLLEGE,
+    company: "PES UNIVERSITY",
+    project: {
+      title: (
+        <React.Fragment>
+          <b>Movie recommendation</b>
+        </React.Fragment>
+      ),
+      desc: [
+        {
+          item: "Languages and Technologies used: Python, Pandas",
+        },
+        {
+          item: (
+            <React.Fragment>
+              <i>Features implemented:</i>
+              <ul>
+                <li>
+                  Content Based Filtering by calculating cosine similarity using
+                  Counter vectorization
+                </li>
+                <li>Recommend movies using euclidean distance</li>
+                <li>Recommend movies using pearson coefficient</li>
+              </ul>
+            </React.Fragment>
+          ),
+        },
+      ],
+      reference: (
+        <React.Fragment>
+          <a
+            href="https://github.com/gagan-mahesh/DA/blob/main/movie_recommend.ipynb"
             class="btn card-logo-button"
           >
             <span>

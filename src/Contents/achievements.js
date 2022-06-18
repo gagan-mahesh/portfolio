@@ -1,5 +1,6 @@
 import React from "react";
 import aiiot from "../Contents/aiiot.pdf";
+import linux_cmd_cert from "../Contents/linux_cmd_cert.pdf";
 
 export const achievements = [
   {
@@ -43,6 +44,33 @@ export const achievements = [
       {
         file: aiiot,
         caption: "Download AIIOT certificate",
+      },
+    ],
+  },
+  {
+    header: "Certifications",
+    description: [
+      {
+        desc: (
+          <React.Fragment>
+            <b>Linux Command Line Certification</b>
+            <br />
+            <a href="https://www.linkedin.com/learning/certificates/49255db2c7fcd94422d9ae71fb653d69c461e1ff3957f6782a0c796021d481c5?trk=share_certificate">
+              View Certificate
+            </a>
+          </React.Fragment>
+        ),
+      },
+      {
+        desc: (
+          <React.Fragment>
+            <b>Linux Files and Permissions Certification</b>
+            <br />
+            <a href="https://www.linkedin.com/learning/certificates/e2249069838bbb659a1e71e4142457a909cdccc1755cf8d6d37b0ccc53292b46?trk=share_certificate">
+              View Certificate
+            </a>
+          </React.Fragment>
+        ),
       },
     ],
   },
