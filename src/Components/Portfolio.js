@@ -12,7 +12,7 @@ import { INTERNSHIP, COLLEGE, PERSONAL } from "../Contents/Constants/constants";
 import DetectRTC from "detectrtc";
 
 const Portfolio = () => {
-  const [screenName, setScreenName] = useState(null);
+  const [screenName, setScreenName] = useState(INTERNSHIP);
 
   const mobileDisplay = (item, index) => {
     return (
