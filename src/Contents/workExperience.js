@@ -1,6 +1,6 @@
 export const workExperience = {
   aboutDescription:
-    "Hi viewers! My name is Gagan Mahesh. I am a CS graduate from PES university, Bangalore. I currently work as a front-end developer. My main interests are in computer networking, full stack development. My hobbies include basketball, piano, gym.",
+    "Hi viewers! I am Gagan Mahesh. I am a CS graduate from PES university, Bangalore. I currently work as a network engineer in Apple. In my free time I do a lot of web development. My main interests are in computer networking, full stack development. My hobbies include basketball, piano, gym.",
   experience: [
     {
       companyName: "Cisco",
