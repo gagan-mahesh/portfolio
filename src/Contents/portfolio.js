@@ -167,4 +167,54 @@ export const portfolio_college = [
   },
 ];
 
-export const portfolio_personal = [];
+export const portfolio_personal = [{
+  category: PERSONAL,
+  project: {
+    title: (
+      <React.Fragment>
+        <b>Portfolio Website</b>
+      </React.Fragment>
+    ),
+    desc: [
+      {
+        item: "Languages and Technologies used: ReactJS, Javascript, CSS, HTML, JSON"
+      },
+      {
+        item: (
+          <React.Fragment>
+            <i>Feature implemented:</i>
+            <ul>
+              <li>
+                Resume download and view 
+              </li>
+              <li>
+                'About me' section
+              </li>
+              <li>
+                'Projects' section
+              </li>
+              <li>
+                'Skills' section
+              </li>
+              <li>
+                'Achievements' section
+              </li>
+            </ul>
+          </React.Fragment>
+        )
+      }
+    ],
+    reference: (
+      <React.Fragment>
+        <a
+            href="https://github.com/gagan-mahesh/portfolio"
+            class="btn card-logo-button"
+          >
+            <span>
+              View in github <img src={github} alt="Github Image" />
+            </span>
+          </a>
+      </React.Fragment>
+    )
+  }
+}];

@@ -36,7 +36,7 @@ const Portfolio = () => {
     const constantObjectMapping = {
       INTERNSHIP: portfolio,
       COLLEGE: college,
-      // PERSONAL: personal,
+      PERSONAL: personal,
     };
     if (screenName && constantObjectMapping[screenName]?.length > 0) {
       return (
@@ -93,7 +93,7 @@ const Portfolio = () => {
             College
           </Button>
         </div>
-        {/* <div className="button-container">
+        <div className="button-container">
           <Button
             variant="light"
             className="main-buttons"
@@ -103,7 +103,7 @@ const Portfolio = () => {
           >
             Personal
           </Button>
-        </div> */}
+        </div>
       </div>
 
       {/* MOBILE DEVICE UI */}
